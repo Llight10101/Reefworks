@@ -3,15 +3,15 @@
 	"id": "reefworks",
 	"version": "${version}",
 	"name": "Reefworks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Reefworks is a mod for a living factory reef!",
 	"authors": [
-		"Me!"
+		"LlightCutie"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/reefworks/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.llightcutie.reefworks.ReefworksDataGenerator"
+		],
+		"client": [
+			"com.llightcutie.reefworks.ReefworksModClient"
 		]
 	},
 	"mixins": [
