@@ -1,6 +1,7 @@
 package com.llightcutie.reefworks;
 
 import com.llightcutie.reefworks.block.ModBlocks;
+import com.llightcutie.reefworks.item.ModItemGroups;
 import com.llightcutie.reefworks.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class Reefworks implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

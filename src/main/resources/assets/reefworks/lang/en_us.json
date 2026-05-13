@@ -3,5 +3,9 @@
   "item.reefworks.polyp_sample": "Polyp Sample",
   "item.reefworks.altered_polyp_sample": "Altered Polyp Sample",
 
-  "block.reefworks.coral_heart_block": "Coral Heart"
+  "block.reefworks.coral_heart_block": "Coral Heart",
+
+  "itemGroup.reefworks.reefworks_tools": "Reefworks Tools",
+  "itemGroup.reefworks.reefworks_blocks": "Reefworks Blocks",
+  "itemGroup.reefworks.reefworks_organics": "Reefworks Organics"
 }

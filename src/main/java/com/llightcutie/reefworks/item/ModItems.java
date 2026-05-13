@@ -1,11 +1,9 @@
 package com.llightcutie.reefworks.item;
 
 import com.llightcutie.reefworks.Reefworks;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
 public class ModItems {
@@ -22,11 +20,5 @@ public class ModItems {
 
     public static void registerModItems() {
         Reefworks.LOGGER.info("Registering Mod Items for " + Reefworks.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(entries -> {
-            entries.accept(ModItems.CORAL_BRUSH);
-            entries.accept(ModItems.POLYP_SAMPLE);
-            entries.accept(ModItems.ALTERED_POLYP_SAMPLE);
-        });
     }
 }

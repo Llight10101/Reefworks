@@ -1,12 +1,10 @@
 package com.llightcutie.reefworks.block;
 
 import com.llightcutie.reefworks.Reefworks;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -37,9 +35,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         Reefworks.LOGGER.info("Registering Mod Blocks for " + Reefworks.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register(entries -> {
-            entries.accept(ModBlocks.CORAL_HEART_BLOCK);
-        });
     }
 }
