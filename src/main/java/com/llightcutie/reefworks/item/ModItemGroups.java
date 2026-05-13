@@ -32,9 +32,13 @@ public class ModItemGroups {
     public static final CreativeModeTab REEFWORKS_ORGANICS = Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
             ResourceLocation.fromNamespaceAndPath(Reefworks.MOD_ID, "reefwork_organics"),
-            FabricItemGroup.builder().title(Component.translatable("itemGroup.reefworks.reefworks_organics")).icon(() -> new ItemStack(ModItems.POLYP_SAMPLE))
+            FabricItemGroup.builder().title(Component.translatable("itemGroup.reefworks.reefworks_organics")).icon(() -> new ItemStack(ModItems.TUBE_POLYP_SAMPLE))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.POLYP_SAMPLE);
+                        output.accept(ModItems.TUBE_POLYP_SAMPLE);
+                        output.accept(ModItems.BRAIN_POLYP_SAMPLE);
+                        output.accept(ModItems.BUBBLE_POLYP_SAMPLE);
+                        output.accept(ModItems.FIRE_POLYP_SAMPLE);
+                        output.accept(ModItems.HORN_POLYP_SAMPLE);
                         output.accept(ModItems.ALTERED_POLYP_SAMPLE);
                     })
                     .build());
