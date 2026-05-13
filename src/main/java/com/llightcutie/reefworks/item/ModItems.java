@@ -11,6 +11,7 @@ import net.minecraft.world.item.Item;
 public class ModItems {
     public static final Item CORAL_BRUSH = registerItem("coral_brush", new Item(new Item.Properties()));
     public static final Item POLYP_SAMPLE = registerItem("polyp_sample", new Item(new Item.Properties()));
+    public static final Item ALTERED_POLYP_SAMPLE = registerItem("altered_polyp_sample", new Item(new Item.Properties()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -25,6 +26,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(entries -> {
             entries.accept(ModItems.CORAL_BRUSH);
             entries.accept(ModItems.POLYP_SAMPLE);
+            entries.accept(ModItems.ALTERED_POLYP_SAMPLE);
         });
     }
 }

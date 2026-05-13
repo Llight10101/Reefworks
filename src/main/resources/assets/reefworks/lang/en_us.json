@@ -1,4 +1,7 @@
 {
   "item.reefworks.coral_brush": "Coral Brush",
-  "item.reefworks.polyp_sample": "Polyp Sample"
+  "item.reefworks.polyp_sample": "Polyp Sample",
+  "item.reefworks.altered_polyp_sample": "Altered Polyp Sample",
+
+  "block.reefworks.coral_heart_block": "Coral Heart"
 }
