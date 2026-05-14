@@ -11,10 +11,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class ModItemGroups {
-    public static final CreativeModeTab REEFWORKS_BLOCKS = Registry.register(
+    public static final CreativeModeTab REEFWORKS_CORE = Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
-            ResourceLocation.fromNamespaceAndPath(Reefworks.MOD_ID, "reefworks_blocks"),
-            FabricItemGroup.builder().title(Component.translatable("itemGroup.reefworks.reefworks_blocks")).icon(() -> new ItemStack(ModBlocks.CORAL_HEART_BLOCK))
+            ResourceLocation.fromNamespaceAndPath(Reefworks.MOD_ID, "reefworks_core"),
+            FabricItemGroup.builder().title(Component.translatable("itemGroup.reefworks.reefworks_core")).icon(() -> new ItemStack(ModBlocks.CORAL_HEART_BLOCK))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.CORAL_HEART_BLOCK);
                     })
