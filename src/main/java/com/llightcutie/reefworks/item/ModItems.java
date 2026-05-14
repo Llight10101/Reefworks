@@ -7,7 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 
 public class ModItems {
-    public static final Item CORAL_BRUSH = registerItem("coral_brush", new Item(new Item.Properties().durability(128)));
+    public static final Item CORAL_BRUSH = registerItem("coral_brush", new CoralBrushItem(new Item.Properties().durability(24)));
 
     public static final Item TUBE_POLYP_SAMPLE = registerItem("tube_polyp_sample", new Item(new Item.Properties()));
     public static final Item BRAIN_POLYP_SAMPLE = registerItem("brain_polyp_sample", new Item(new Item.Properties()));
