@@ -1,5 +1,6 @@
 package com.llightcutie.reefworks.item;
 
+import com.llightcutie.reefworks.block.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
@@ -102,15 +103,15 @@ public class CoralBrushItem extends BrushItem {
         Block block = state.getBlock();
 
         if (block == Blocks.TUBE_CORAL_BLOCK)
-            return ModItems.TUBE_POLYP_SAMPLE.asItem();
+            return ModBlocks.TUBE_POLYP_SAMPLE.asItem();
         if (block == Blocks.BRAIN_CORAL_BLOCK)
-            return ModItems.BRAIN_POLYP_SAMPLE.asItem();
+            return ModBlocks.BRAIN_POLYP_SAMPLE.asItem();
         if (block == Blocks.BUBBLE_CORAL_BLOCK)
-            return ModItems.BUBBLE_POLYP_SAMPLE.asItem();
+            return ModBlocks.BUBBLE_POLYP_SAMPLE.asItem();
         if (block == Blocks.FIRE_CORAL_BLOCK)
-            return ModItems.FIRE_POLYP_SAMPLE.asItem();
+            return ModBlocks.FIRE_POLYP_SAMPLE.asItem();
         if (block == Blocks.HORN_CORAL_BLOCK)
-            return ModItems.HORN_POLYP_SAMPLE.asItem();
+            return ModBlocks.HORN_POLYP_SAMPLE.asItem();
 
         return null;
     }
