@@ -7,8 +7,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 
 public class ModBlocks {
     public static final Block CORAL_HEART_BLOCK = registerBlock("coral_heart_block",
@@ -20,6 +24,113 @@ public class ModBlocks {
                     .randomTicks()
                     .lightLevel(state -> 10)
             ));
+
+
+    public static final Block TUBE_POLYP_SAMPLE = registerBlock("tube_polyp_sample",
+            new SaplingBlock(TreeGrower.OAK, BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+                    .lightLevel(state -> 8)
+            ));
+
+    public static final Block BRAIN_POLYP_SAMPLE = registerBlock("brain_polyp_sample",
+            new SaplingBlock(TreeGrower.OAK, BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+                    .lightLevel(state -> 8)
+            ));
+
+    public static final Block BUBBLE_POLYP_SAMPLE = registerBlock("bubble_polyp_sample",
+            new SaplingBlock(TreeGrower.OAK, BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+                    .lightLevel(state -> 8)
+            ));
+
+    public static final Block FIRE_POLYP_SAMPLE = registerBlock("fire_polyp_sample",
+            new SaplingBlock(TreeGrower.OAK, BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+                    .lightLevel(state -> 8)
+            ));
+
+    public static final Block HORN_POLYP_SAMPLE = registerBlock("horn_polyp_sample",
+            new SaplingBlock(TreeGrower.OAK, BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+                    .lightLevel(state -> 8)
+            ));
+
+    public static final Block DEAD_TUBE_POLYP_SAMPLE = registerBlock("dead_tube_polyp_sample",
+            new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+            ));
+
+    public static final Block DEAD_BRAIN_POLYP_SAMPLE = registerBlock("dead_brain_polyp_sample",
+            new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+            ));
+
+    public static final Block DEAD_BUBBLE_POLYP_SAMPLE = registerBlock("dead_bubble_polyp_sample",
+            new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+            ));
+
+    public static final Block DEAD_FIRE_POLYP_SAMPLE = registerBlock("dead_fire_polyp_sample",
+            new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+            ));
+
+    public static final Block DEAD_HORN_POLYP_SAMPLE = registerBlock("dead_horn_polyp_sample",
+            new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.GRASS)
+                    .pushReaction(PushReaction.DESTROY)
+            ));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

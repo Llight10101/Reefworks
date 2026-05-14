@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "reefworks:item/brain_polyp_sample"
+    "layer0": "reefworks:block/brain_polyp_sample_1"
   }
 }

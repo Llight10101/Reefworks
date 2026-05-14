@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "reefworks:item/horn_polyp_sample"
+    "layer0": "reefworks:block/horn_polyp_sample_1"
   }
 }

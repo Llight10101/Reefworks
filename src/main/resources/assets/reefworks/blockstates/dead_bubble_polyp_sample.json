@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "reefworks:block/dead_bubble_polyp_sample_1"
+      },
+      {
+        "model": "reefworks:block/dead_bubble_polyp_sample_2"
+      }
+    ]
+  }
+}

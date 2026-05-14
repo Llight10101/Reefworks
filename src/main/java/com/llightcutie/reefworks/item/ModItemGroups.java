@@ -32,19 +32,19 @@ public class ModItemGroups {
     public static final CreativeModeTab REEFWORKS_ORGANICS = Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
             ResourceLocation.fromNamespaceAndPath(Reefworks.MOD_ID, "reefwork_organics"),
-            FabricItemGroup.builder().title(Component.translatable("itemGroup.reefworks.reefworks_organics")).icon(() -> new ItemStack(ModItems.TUBE_POLYP_SAMPLE))
+            FabricItemGroup.builder().title(Component.translatable("itemGroup.reefworks.reefworks_organics")).icon(() -> new ItemStack(ModBlocks.TUBE_POLYP_SAMPLE))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.TUBE_POLYP_SAMPLE);
-                        output.accept(ModItems.BRAIN_POLYP_SAMPLE);
-                        output.accept(ModItems.BUBBLE_POLYP_SAMPLE);
-                        output.accept(ModItems.FIRE_POLYP_SAMPLE);
-                        output.accept(ModItems.HORN_POLYP_SAMPLE);
+                        output.accept(ModBlocks.TUBE_POLYP_SAMPLE);
+                        output.accept(ModBlocks.BRAIN_POLYP_SAMPLE);
+                        output.accept(ModBlocks.BUBBLE_POLYP_SAMPLE);
+                        output.accept(ModBlocks.FIRE_POLYP_SAMPLE);
+                        output.accept(ModBlocks.HORN_POLYP_SAMPLE);
 
-                        output.accept(ModItems.DEAD_TUBE_POLYP_SAMPLE);
-                        output.accept(ModItems.DEAD_BRAIN_POLYP_SAMPLE);
-                        output.accept(ModItems.DEAD_BUBBLE_POLYP_SAMPLE);
-                        output.accept(ModItems.DEAD_FIRE_POLYP_SAMPLE);
-                        output.accept(ModItems.DEAD_HORN_POLYP_SAMPLE);
+                        output.accept(ModBlocks.DEAD_TUBE_POLYP_SAMPLE);
+                        output.accept(ModBlocks.DEAD_BRAIN_POLYP_SAMPLE);
+                        output.accept(ModBlocks.DEAD_BUBBLE_POLYP_SAMPLE);
+                        output.accept(ModBlocks.DEAD_FIRE_POLYP_SAMPLE);
+                        output.accept(ModBlocks.DEAD_HORN_POLYP_SAMPLE);
 
                         output.accept(ModItems.BLEACHED_CORAL_FRAGMENT);
 

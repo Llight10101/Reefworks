@@ -1,17 +1,17 @@
 {
   "item.reefworks.coral_brush": "Coral Brush",
 
-  "item.reefworks.tube_polyp_sample": "Tube Polyp Sample",
-  "item.reefworks.brain_polyp_sample": "Brain Polyp Sample",
-  "item.reefworks.bubble_polyp_sample": "Bubble Polyp Sample",
-  "item.reefworks.fire_polyp_sample": "Fire Polyp Sample",
-  "item.reefworks.horn_polyp_sample": "Horn Polyp Sample",
+  "block.reefworks.tube_polyp_sample": "Tube Polyp Sample",
+  "block.reefworks.brain_polyp_sample": "Brain Polyp Sample",
+  "block.reefworks.bubble_polyp_sample": "Bubble Polyp Sample",
+  "block.reefworks.fire_polyp_sample": "Fire Polyp Sample",
+  "block.reefworks.horn_polyp_sample": "Horn Polyp Sample",
 
-  "item.reefworks.dead_tube_polyp_sample": "Dead Tube Polyp Sample",
-  "item.reefworks.dead_brain_polyp_sample": "Dead Brain Polyp Sample",
-  "item.reefworks.dead_bubble_polyp_sample": "Dead Bubble Polyp Sample",
-  "item.reefworks.dead_fire_polyp_sample": "Dead Fire Polyp Sample",
-  "item.reefworks.dead_horn_polyp_sample": "Dead Horn Polyp Sample",
+  "block.reefworks.dead_tube_polyp_sample": "Dead Tube Polyp Sample",
+  "block.reefworks.dead_brain_polyp_sample": "Dead Brain Polyp Sample",
+  "block.reefworks.dead_bubble_polyp_sample": "Dead Bubble Polyp Sample",
+  "block.reefworks.dead_fire_polyp_sample": "Dead Fire Polyp Sample",
+  "block.reefworks.dead_horn_polyp_sample": "Dead Horn Polyp Sample",
 
   "item.reefworks.bleached_coral_fragment": "Bleached Coral Fragment",
 
@@ -19,7 +19,7 @@
 
   "block.reefworks.coral_heart_block": "Coral Heart",
 
-  "itemGroup.reefworks.reefworks_tools": "Reefworks Tools & Equipment",
-  "itemGroup.reefworks.reefworks_core": "Reefworks Core",
+  "itemGroup.reefworks.reefworks_tools": "Reefworks Tools",
+  "itemGroup.reefworks.reefworks_core": "Reefworks Blocks",
   "itemGroup.reefworks.reefworks_organics": "Reefworks Organics"
 }
