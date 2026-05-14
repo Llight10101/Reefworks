@@ -19,7 +19,7 @@
 
   "block.reefworks.coral_heart_block": "Coral Heart",
 
-  "itemGroup.reefworks.reefworks_tools": "Reefworks Tools",
-  "itemGroup.reefworks.reefworks_blocks": "Reefworks Blocks",
+  "itemGroup.reefworks.reefworks_tools": "Reefworks Tools & Equipment",
+  "itemGroup.reefworks.reefworks_core": "Reefworks Core",
   "itemGroup.reefworks.reefworks_organics": "Reefworks Organics"
 }
