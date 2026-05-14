@@ -39,7 +39,7 @@ public class ModItemGroups {
                         output.accept(ModItems.BUBBLE_POLYP_SAMPLE);
                         output.accept(ModItems.FIRE_POLYP_SAMPLE);
                         output.accept(ModItems.HORN_POLYP_SAMPLE);
-                        output.accept(ModItems.ALTERED_POLYP_SAMPLE);
+                        output.accept(ModItems.CORAL_HEART_CORE);
                     })
                     .build());
 
