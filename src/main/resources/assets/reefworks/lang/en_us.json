@@ -7,6 +7,14 @@
   "item.reefworks.fire_polyp_sample": "Fire Polyp Sample",
   "item.reefworks.horn_polyp_sample": "Horn Polyp Sample",
 
+  "item.reefworks.dead_tube_polyp_sample": "Dead Tube Polyp Sample",
+  "item.reefworks.dead_brain_polyp_sample": "Dead Brain Polyp Sample",
+  "item.reefworks.dead_bubble_polyp_sample": "Dead Bubble Polyp Sample",
+  "item.reefworks.dead_fire_polyp_sample": "Dead Fire Polyp Sample",
+  "item.reefworks.dead_horn_polyp_sample": "Dead Horn Polyp Sample",
+
+  "item.reefworks.bleached_coral_fragment": "Bleached Coral Fragment",
+
   "item.reefworks.coral_heart_core": "Coral Heart Core",
 
   "block.reefworks.coral_heart_block": "Coral Heart",

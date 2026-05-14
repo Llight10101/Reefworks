@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "reefworks:bleached_coral_fragment"
+    }
+  },
+  "pattern": [
+    "B",
+    "K",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "reefworks:coral_brush"
+  }
+}

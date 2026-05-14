@@ -39,6 +39,15 @@ public class ModItemGroups {
                         output.accept(ModItems.BUBBLE_POLYP_SAMPLE);
                         output.accept(ModItems.FIRE_POLYP_SAMPLE);
                         output.accept(ModItems.HORN_POLYP_SAMPLE);
+
+                        output.accept(ModItems.DEAD_TUBE_POLYP_SAMPLE);
+                        output.accept(ModItems.DEAD_BRAIN_POLYP_SAMPLE);
+                        output.accept(ModItems.DEAD_BUBBLE_POLYP_SAMPLE);
+                        output.accept(ModItems.DEAD_FIRE_POLYP_SAMPLE);
+                        output.accept(ModItems.DEAD_HORN_POLYP_SAMPLE);
+
+                        output.accept(ModItems.BLEACHED_CORAL_FRAGMENT);
+
                         output.accept(ModItems.CORAL_HEART_CORE);
                     })
                     .build());

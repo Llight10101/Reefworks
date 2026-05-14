@@ -1,6 +1,7 @@
 package com.llightcutie.reefworks.item;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,7 +32,7 @@ public class CoralBrushItem extends BrushItem {
         BlockPos pos = context.getClickedPos();
         BlockState state = level.getBlockState(pos);
 
-        if (isVanillaCoral(state)) {
+        if (isVanillaCoral(state, level)) {
             Player player = context.getPlayer();
             if (player != null) {
                 player.startUsingItem(context.getHand());
@@ -59,15 +60,17 @@ public class CoralBrushItem extends BrushItem {
         BlockPos pos = blockHitResult.getBlockPos();
         BlockState state = level.getBlockState(pos);
 
-        if (!isVanillaCoral(state)) {
+        if (!isVanillaCoral(state, level)) {
             super.onUseTick(level, entity, stack, remainingUseTicks);
+
             return;
         }
 
         int ticksUsed = getUseDuration(stack, entity) - remainingUseTicks;
+
         if (ticksUsed >= BRUSH_DURATION) {
             if (!level.isClientSide) {
-                Item sample = getSample(state);
+                Item sample = getSample(state, level);
                 if (sample != null) {
                     stack.hurtAndBreak(1, entity, EquipmentSlot.MAINHAND);
                     player.addItem(new ItemStack(sample));
@@ -90,17 +93,31 @@ public class CoralBrushItem extends BrushItem {
         );
     }
 
-    private Item getSample(BlockState state) {
+    private Item getSample(BlockState state, Level level) {
+
+        if (level.random.nextFloat() > 0.25f) {
+            return ModItems.BLEACHED_CORAL_FRAGMENT;
+        }
+
         Block block = state.getBlock();
-        if (block == Blocks.TUBE_CORAL || block == Blocks.TUBE_CORAL_FAN || block == Blocks.TUBE_CORAL_WALL_FAN || block == Blocks.TUBE_CORAL_BLOCK) return ModItems.TUBE_POLYP_SAMPLE;
-        if (block == Blocks.BRAIN_CORAL || block == Blocks.BRAIN_CORAL_FAN || block == Blocks.BRAIN_CORAL_WALL_FAN || block == Blocks.BRAIN_CORAL_BLOCK) return ModItems.BRAIN_POLYP_SAMPLE;
-        if (block == Blocks.BUBBLE_CORAL || block == Blocks.BUBBLE_CORAL_FAN || block == Blocks.BUBBLE_CORAL_WALL_FAN || block == Blocks.BUBBLE_CORAL_BLOCK) return ModItems.BUBBLE_POLYP_SAMPLE;
-        if (block == Blocks.FIRE_CORAL || block == Blocks.FIRE_CORAL_FAN || block == Blocks.FIRE_CORAL_WALL_FAN || block == Blocks.FIRE_CORAL_BLOCK) return ModItems.FIRE_POLYP_SAMPLE;
-        if (block == Blocks.HORN_CORAL || block == Blocks.HORN_CORAL_FAN || block == Blocks.HORN_CORAL_WALL_FAN || block == Blocks.HORN_CORAL_BLOCK) return ModItems.HORN_POLYP_SAMPLE;
+
+        if (block == Blocks.TUBE_CORAL_BLOCK)
+            return ModItems.TUBE_POLYP_SAMPLE.asItem();
+        if (block == Blocks.BRAIN_CORAL_BLOCK)
+            return ModItems.BRAIN_POLYP_SAMPLE.asItem();
+        if (block == Blocks.BUBBLE_CORAL_BLOCK)
+            return ModItems.BUBBLE_POLYP_SAMPLE.asItem();
+        if (block == Blocks.FIRE_CORAL_BLOCK)
+            return ModItems.FIRE_POLYP_SAMPLE.asItem();
+        if (block == Blocks.HORN_CORAL_BLOCK)
+            return ModItems.HORN_POLYP_SAMPLE.asItem();
+
         return null;
     }
 
-    private boolean isVanillaCoral(BlockState state) {
-        return getSample(state) != null;
+    private boolean isVanillaCoral(BlockState state, Level level) {
+        Block block = state.getBlock();
+
+        return block.defaultBlockState().is(BlockTags.CORAL_BLOCKS);
     }
 }
