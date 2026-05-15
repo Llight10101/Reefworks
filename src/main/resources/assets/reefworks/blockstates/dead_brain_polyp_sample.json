@@ -2,10 +2,10 @@
   "variants": {
     "": [
       {
-        "model": "reefworks:block/dead_brain_polyp_sample_1"
+        "model": "reefworks:block/polyp_samples/dead_polyps/dead_brain_polyp_sample_1"
       },
       {
-        "model": "reefworks:block/dead_brain_polyp_sample_2"
+        "model": "reefworks:block/polyp_samples/dead_polyps/dead_brain_polyp_sample_2"
       }
     ]
   }

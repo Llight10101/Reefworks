@@ -1,0 +1,15 @@
+{
+  "type": "reefworks:coral_growth",
+  "config": {
+    "coral_block": "minecraft:tube_coral_block",
+    "coral_plant": "minecraft:tube_coral",
+    "coral_fan": "minecraft:tube_coral_fan",
+    "coral_wall_fan": "minecraft:tube_coral_wall_fan",
+    "structures": [
+      { "type": "SPIRE", "weight": 5 },
+      { "type": "CLUSTER", "weight": 2 },
+      { "type": "DOME", "weight": 1 },
+      { "type": "BRANCH", "weight": 2 }
+    ]
+  }
+}
