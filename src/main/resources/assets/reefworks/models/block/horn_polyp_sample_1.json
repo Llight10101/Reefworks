@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "reefworks:block/horn_polyp_sample_1"
-  }
-}

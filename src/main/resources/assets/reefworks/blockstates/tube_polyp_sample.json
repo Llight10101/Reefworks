@@ -2,10 +2,10 @@
   "variants": {
     "": [
       {
-        "model": "reefworks:block/tube_polyp_sample_1"
+        "model": "reefworks:block/polyp_samples/live_polyps/tube_polyp_sample_1"
       },
       {
-        "model": "reefworks:block/tube_polyp_sample_2"
+        "model": "reefworks:block/polyp_samples/live_polyps/tube_polyp_sample_2"
       }
     ]
   }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "reefworks:block/polyp_samples/dead_polyps/dead_tube_polyp_sample_2"
+  }
+}

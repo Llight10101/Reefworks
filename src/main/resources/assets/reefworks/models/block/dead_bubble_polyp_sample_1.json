@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "reefworks:block/dead_bubble_polyp_sample_1"
-  }
-}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "reefworks:block/dead_tube_polyp_sample_1"
+    "layer0": "reefworks:block/polyp_samples/dead_polyps/dead_tube_polyp_sample_1"
   }
 }

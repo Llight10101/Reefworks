@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "reefworks:block/polyp_samples/live_polyps/fire_polyp_sample_1"
+  }
+}
