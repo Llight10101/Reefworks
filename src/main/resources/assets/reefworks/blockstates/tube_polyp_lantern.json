@@ -1,10 +1,10 @@
 {
   "variants": {
     "hanging=false": {
-      "model": "reefworks:block/tube_polyp_lantern"
+      "model": "reefworks:block/polyp_lanterns/tube_polyp_lantern"
     },
     "hanging=true": {
-      "model": "reefworks:block/tube_polyp_lantern_hanging"
+      "model": "reefworks:block/polyp_lanterns/tube_polyp_lantern_hanging"
     }
   }
 }

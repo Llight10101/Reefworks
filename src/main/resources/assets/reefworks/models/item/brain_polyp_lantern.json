@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "reefworks:item/brain_polyp_lantern_item"
+    "layer0": "reefworks:item/polyp_lanterns/brain_polyp_lantern_item"
   }
 }

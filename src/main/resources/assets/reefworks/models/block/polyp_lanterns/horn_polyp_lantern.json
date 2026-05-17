@@ -1,9 +1,9 @@
 {
 	"parent": "minecraft:block/template_lantern",
 	"textures": {
-		"0": "reefworks:block/horn_lantern_corals",
-		"1": "reefworks:block/horn_polyp_lantern",
-		"particle": "reefworks:block/horn_lantern_corals"
+		"0": "reefworks:block/polyp_lanterns/horn_lantern_corals",
+		"1": "reefworks:block/polyp_lanterns/horn_polyp_lantern",
+		"particle": "reefworks:block/polyp_lanterns/horn_lantern_corals"
 	},
 	"elements": [
 		{
