@@ -1,7 +1,5 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
-	"parent": "block/block",
+	"parent": "minecraft:block/template_hanging_lantern",
 	"textures": {
 		"0": "reefworks:block/fire_polyp_lantern",
 		"1": "reefworks:block/fire_lantern_corals_hanging",
