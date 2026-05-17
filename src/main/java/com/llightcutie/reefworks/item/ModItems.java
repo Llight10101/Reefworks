@@ -10,6 +10,7 @@ public class ModItems {
     public static final Item CORAL_BRUSH = registerItem("coral_brush", new CoralBrushItem(new Item.Properties().durability(24)));
 
     public static final Item BLEACHED_CORAL_FRAGMENT = registerItem("bleached_coral_fragment", new Item(new Item.Properties()));
+    public static final Item POLYP_PASTE = registerItem("polyp_paste", new Item(new Item.Properties()));
 
     public static final Item CORAL_HEART_CORE = registerItem("coral_heart_core", new Item(new Item.Properties()));
 
