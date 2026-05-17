@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "reefworks:block/brain_polyp_lantern"
+    },
+    "hanging=true": {
+      "model": "reefworks:block/brain_polyp_lantern_hanging"
+    }
+  }
+}

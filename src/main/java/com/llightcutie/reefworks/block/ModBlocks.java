@@ -34,7 +34,6 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY)
             ));
-
     public static final Block DEAD_BRAIN_POLYP_SAMPLE = registerBlock("dead_brain_polyp_sample",
             new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -44,7 +43,6 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY)
             ));
-
     public static final Block DEAD_BUBBLE_POLYP_SAMPLE = registerBlock("dead_bubble_polyp_sample",
             new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -54,7 +52,6 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY)
             ));
-
     public static final Block DEAD_FIRE_POLYP_SAMPLE = registerBlock("dead_fire_polyp_sample",
             new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -64,7 +61,6 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY)
             ));
-
     public static final Block DEAD_HORN_POLYP_SAMPLE = registerBlock("dead_horn_polyp_sample",
             new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -85,7 +81,6 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY)
                     .lightLevel(state -> 8)
             ));
-
     public static final Block BRAIN_POLYP_SAMPLE = registerBlock("brain_polyp_sample",
             new PolypGrowthBlock(ModTreeGrowers.BRAIN_CORAL, ModBlocks.DEAD_BRAIN_POLYP_SAMPLE, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -96,7 +91,6 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY)
                     .lightLevel(state -> 8)
             ));
-
     public static final Block BUBBLE_POLYP_SAMPLE = registerBlock("bubble_polyp_sample",
             new PolypGrowthBlock(ModTreeGrowers.BUBBLE_CORAL, ModBlocks.DEAD_BUBBLE_POLYP_SAMPLE, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -107,7 +101,6 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY)
                     .lightLevel(state -> 8)
             ));
-
     public static final Block FIRE_POLYP_SAMPLE = registerBlock("fire_polyp_sample",
             new PolypGrowthBlock(ModTreeGrowers.FIRE_CORAL, ModBlocks.DEAD_FIRE_POLYP_SAMPLE, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -118,7 +111,6 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY)
                     .lightLevel(state -> 8)
             ));
-
     public static final Block HORN_POLYP_SAMPLE = registerBlock("horn_polyp_sample",
             new PolypGrowthBlock(ModTreeGrowers.HORN_CORAL, ModBlocks.DEAD_HORN_POLYP_SAMPLE, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
@@ -142,7 +134,6 @@ public class ModBlocks {
                             .pushReaction(PushReaction.DESTROY)
             )
     );
-
     public static final Block BRAIN_POLYP_LANTERN = registerBlock("brain_polyp_lantern",
             new LanternBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.METAL)
@@ -155,7 +146,6 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY)
             )
     );
-
     public static final Block BUBBLE_POLYP_LANTERN = registerBlock("bubble_polyp_lantern",
             new LanternBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.METAL)
@@ -168,7 +158,6 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY)
             )
     );
-
     public static final Block FIRE_POLYP_LANTERN = registerBlock("fire_polyp_lantern",
             new LanternBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.METAL)
@@ -181,7 +170,6 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY)
             )
     );
-
     public static final Block HORN_POLYP_LANTERN = registerBlock("horn_polyp_lantern",
             new LanternBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.METAL)

@@ -1,6 +1,4 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/template_hanging_lantern",
 	"textures": {
 		"2": "reefworks:block/tube_lantern_corals",
