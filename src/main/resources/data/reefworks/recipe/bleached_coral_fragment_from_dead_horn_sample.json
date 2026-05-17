@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bleached_coral_fragment",
+  "ingredients": [
+    {
+      "item": "reefworks:dead_horn_polyp_sample"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reefworks:bleached_coral_fragment"
+  }
+}

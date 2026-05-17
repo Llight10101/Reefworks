@@ -17,6 +17,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().title(Component.translatable("itemGroup.reefworks.reefworks_core")).icon(() -> new ItemStack(ModBlocks.CORAL_HEART_BLOCK))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.CORAL_HEART_BLOCK);
+                        output.accept(ModBlocks.TUBE_POLYP_LANTERN);
+                        output.accept(ModBlocks.BRAIN_POLYP_LANTERN);
+                        output.accept(ModBlocks.BUBBLE_POLYP_LANTERN);
+                        output.accept(ModBlocks.FIRE_POLYP_LANTERN);
+                        output.accept(ModBlocks.HORN_POLYP_LANTERN);
                     })
                     .build());
 

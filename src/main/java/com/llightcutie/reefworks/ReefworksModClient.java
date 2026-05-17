@@ -20,5 +20,7 @@ public class ReefworksModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DEAD_BUBBLE_POLYP_SAMPLE, RenderType.cutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DEAD_FIRE_POLYP_SAMPLE, RenderType.cutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DEAD_HORN_POLYP_SAMPLE, RenderType.cutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TUBE_POLYP_LANTERN, RenderType.cutout());
     }
 }

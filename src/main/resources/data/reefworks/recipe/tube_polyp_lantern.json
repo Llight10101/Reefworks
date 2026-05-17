@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "#": {
+      "item": "reefworks:tube_polyp_sample"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "III",
+    "P#P",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "reefworks:tube_polyp_lantern"
+  }
+}

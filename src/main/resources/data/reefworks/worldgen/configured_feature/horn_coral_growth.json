@@ -9,7 +9,7 @@
       { "type": "SPIRE", "weight": 35 },
       { "type": "CLUSTER", "weight": 20 },
       { "type": "DOME", "weight": 10 },
-      { "type": "BRANCH", "weight": 350 }
+      { "type": "BRANCH", "weight": 35 }
     ]
   }
 }

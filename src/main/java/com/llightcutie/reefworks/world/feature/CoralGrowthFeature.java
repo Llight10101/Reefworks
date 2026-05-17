@@ -132,7 +132,8 @@ public class CoralGrowthFeature extends Feature<CoralGrowthConfig> {
                             origin.getZ() + z
                     );
 
-                    if (level.getBlockState(pos).is(Blocks.WATER)) {
+                    if (level.getBlockState(pos).is(Blocks.WATER)
+                            && level.getBlockState(pos.above()).is(Blocks.WATER)) {
                         growth.add(pos);
                     }
                 }
@@ -170,7 +171,8 @@ public class CoralGrowthFeature extends Feature<CoralGrowthConfig> {
                             origin.getZ() + z
                     );
 
-                    if (level.getBlockState(pos).is(Blocks.WATER)) {
+                    if (level.getBlockState(pos).is(Blocks.WATER)
+                            && level.getBlockState(pos.above()).is(Blocks.WATER)) {
                         growth.add(pos);
                     }
                 }
@@ -213,7 +215,8 @@ public class CoralGrowthFeature extends Feature<CoralGrowthConfig> {
                                 origin.getZ() + az
                         );
 
-                        if (level.getBlockState(pos).is(Blocks.WATER)) {
+                        if (level.getBlockState(pos).is(Blocks.WATER)
+                                && level.getBlockState(pos.above()).is(Blocks.WATER)) {
                             growth.add(pos);
                         }
                     }
@@ -265,7 +268,8 @@ public class CoralGrowthFeature extends Feature<CoralGrowthConfig> {
 
                 BlockPos pos = new BlockPos(bx, by, bz);
 
-                if (level.getBlockState(pos).is(Blocks.WATER)) {
+                if (level.getBlockState(pos).is(Blocks.WATER)
+                        && level.getBlockState(pos.above()).is(Blocks.WATER)) {
                     growth.add(pos);
                 }
             }
@@ -293,7 +297,7 @@ public class CoralGrowthFeature extends Feature<CoralGrowthConfig> {
 
             if (level.getBlockState(side).is(Blocks.WATER)
                     && level.getBlockState(back).is(config.coralBlock)
-                    && random.nextFloat() < 0.25f) {
+                    && random.nextFloat() < 0.35f) {
 
                 BlockState fan = config.coralWallFan
                         .defaultBlockState()

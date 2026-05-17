@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.LanternBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -129,7 +130,70 @@ public class ModBlocks {
                     .lightLevel(state -> 8)
             ));
 
+    public static final Block TUBE_POLYP_LANTERN = registerBlock("tube_polyp_lantern",
+            new LanternBlock(BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.METAL)
+                            .forceSolidOn()
+                            .requiresCorrectToolForDrops()
+                            .strength(3.5F)
+                            .sound(SoundType.LANTERN)
+                            .lightLevel(blockStatex -> 13)
+                            .noOcclusion()
+                            .pushReaction(PushReaction.DESTROY)
+            )
+    );
 
+    public static final Block BRAIN_POLYP_LANTERN = registerBlock("brain_polyp_lantern",
+            new LanternBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .forceSolidOn()
+                    .requiresCorrectToolForDrops()
+                    .strength(3.5F)
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(blockStatex -> 13)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY)
+            )
+    );
+
+    public static final Block BUBBLE_POLYP_LANTERN = registerBlock("bubble_polyp_lantern",
+            new LanternBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .forceSolidOn()
+                    .requiresCorrectToolForDrops()
+                    .strength(3.5F)
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(blockStatex -> 13)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY)
+            )
+    );
+
+    public static final Block FIRE_POLYP_LANTERN = registerBlock("fire_polyp_lantern",
+            new LanternBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .forceSolidOn()
+                    .requiresCorrectToolForDrops()
+                    .strength(3.5F)
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(blockStatex -> 13)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY)
+            )
+    );
+
+    public static final Block HORN_POLYP_LANTERN = registerBlock("horn_polyp_lantern",
+            new LanternBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .forceSolidOn()
+                    .requiresCorrectToolForDrops()
+                    .strength(3.5F)
+                    .sound(SoundType.LANTERN)
+                    .lightLevel(blockStatex -> 13)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY)
+            )
+    );
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
