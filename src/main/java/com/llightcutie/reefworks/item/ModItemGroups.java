@@ -52,7 +52,8 @@ public class ModItemGroups {
                         output.accept(ModBlocks.DEAD_HORN_POLYP_SAMPLE);
 
                         output.accept(ModItems.BLEACHED_CORAL_FRAGMENT);
-                        output.accept(ModItems.POLYP_PASTE);
+                        output.accept(ModItems.POLYP_RESIN);
+                        output.accept(ModItems.SYMBIOTIC_ENZYME);
 
                         output.accept(ModItems.CORAL_HEART_CORE);
                     })

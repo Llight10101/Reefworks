@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "reefworks:item/polyp_paste"
+    "layer0": "reefworks:item/polyp_resin"
   }
 }
